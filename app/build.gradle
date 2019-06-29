@@ -3,7 +3,8 @@ apply plugin: 'com.google.ar.sceneform.plugin'
 
 android {
     compileSdkVersion 28
-    compileOptions{
+
+    compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
 
@@ -33,8 +34,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     //REALIDAD AUMENTADA
-
-    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.6.0'
+    implementation 'com.google.ar:core:1.10.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.10.0'
+    implementation 'com.google.ar.sceneform:core:1.10.0'
     implementation 'com.karumi:dexter:5.0.0'
 }
 
